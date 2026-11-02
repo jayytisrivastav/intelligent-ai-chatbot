@@ -1,4 +1,4 @@
-# Microscope Booking Chatbot
+# Intelligent AI Chatbot
 
 A Python command-line assistant for reserving a lab microscope. A user can ask
 “Can I book the microscope tomorrow?”, give the time and duration in a follow-up
