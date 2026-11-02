@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {
+  "tag": "greetings",
+  "patterns": [
+    "Hello", "Hi", "Hi there", "Hey", "Hey there",
+    "Good morning", "Good afternoon", "Good evening"
+  ],
+  "responses": [
+    "Hello! How can I help you with the microscope today?",
+    "Hi! Would you like to book the microscope or cancel a booking?"
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": [
+    "Thank you", "thankyou", "Thanks", "Thanks a lot",
+    "Thank you so much", "Thanks for your help", "I appreciate it"
+  ],
+  "responses": [
+    "You're welcome!",
+    "You're welcome! Let me know if you need anything else."
+  ]
+},
+    {
+      "tag": "book_microscope",
+      "patterns": [
+        "Can I book the microscope?",
+        "I would like to reserve a microscope slot",
+        "Is the microscope available tomorrow?"
+      ],
+      "responses": [
+        "Which day and time would you like to book?"
+      ]
+    },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "Can I cancel my microscope booking?",
+        "Please cancel the slot I reserved",
+        "I no longer need the microscope tomorrow"
+      ],
+      "responses": [
+        "Which booking would you like to cancel?"
+      ]
+    }
+  ]
+}
